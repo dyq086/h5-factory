@@ -22,7 +22,7 @@
             <input @change="upload" type="file" name="photoImg" class="upload-input">
           </div>
         </el-tooltip>
-        <div v-if="item.limit" class="el-upload__tip" style="line-height: 16px;">上传限制：<font color="red">宽3-{{item.limit.w}}px，高{{item.limit.h}}px，小于{{item.limit.s}}k</font>
+        <div v-if="item.limit" class="el-upload__tip" style="line-height: 16px;">上传限制：<font color="red">宽{{item.limit.w}}px，高{{item.limit.h}}px，小于{{item.limit.s}}k</font>
         </div>
       </div>
     </div>
