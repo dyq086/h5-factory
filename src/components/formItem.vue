@@ -105,6 +105,7 @@
     methods: {
       //1
       //2
+      //3
       setFont(item, attr) {
         if (attr === 'font-weight') {
           this.$set(item.val, 0, item.val[0] === '600' ? '400' : '600')
