@@ -15,7 +15,7 @@
     computed: {
       getStyle() {
         const ret = []
-        this.component.style.forEach((item) => {
+        this.component.style.forEach((item) => { 
           const unit = item.unit || ''
           if (item.val) {
             if (Array.isArray(item.attr)) {
