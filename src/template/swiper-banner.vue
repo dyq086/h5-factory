@@ -18,7 +18,7 @@
   import 'swiper/dist/css/swiper.min.css'
 
   export default {
-    props: {
+    props: { 
       component: {
         type: Object
       }
