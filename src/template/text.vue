@@ -19,7 +19,7 @@
           const unit = item.unit || ''
           if (item.val) {
             if (Array.isArray(item.attr)) {
-              item.attr.forEach((atr, i) => {
+              item.attr.forEach((atr, i) => { 
                 ret.push(atr + ':' + item.val[i])
               })
             } else if (item.attr === 'background-image') {
